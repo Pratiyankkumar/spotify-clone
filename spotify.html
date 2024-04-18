@@ -5,12 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify</title>
-  <link rel="stylesheet" href="general.css">
-  <link rel="stylesheet" href="left-sidebar.css">
   <link href="https://db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=CircularSpotifyTxT-Black" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="left-sidebar.css">
+  <link rel="stylesheet" href="main-content.css">
 </head>
 <body>
   <div class="left-container">
@@ -50,6 +51,67 @@
         <img class="search-icon1" src="assets/search.png" alt="">
         <p class="recent">Recents</p>
       </div>
+
+      <div class="liked-playlist-container">
+        <img class="liked-playlist-image" src="assets/playlist-liked.jpg" alt="">
+        <div class="playlist-info-container">
+          <p class="liked-songs">Liked Songs</p>
+          <p class="song-numbers">Playlist &#183; 26 songs</p>
+        </div>
+      </div>
+
+      <div class="liked-playlist-container">
+        <img class="liked-artist-image" src="artists/badshah.jpg" alt="">
+        <div class="playlist-info-container">
+          <p class="liked-songs">Badshah</p>
+          <p class="song-numbers">Artist</p>
+        </div>
+      </div>
+
+      <div class="liked-playlist-container">
+        <img class="liked-artist-image" src="artists/eminem.jpg" alt="">
+        <div class="playlist-info-container">
+          <p class="liked-songs">Eminem</p>
+          <p class="song-numbers">Artist</p>
+        </div>
+      </div>
+
+      <div class="liked-playlist-container">
+        <img class="liked-artist-image" src="artists/krsna.jpg" alt="">
+        <div class="playlist-info-container">
+          <p class="liked-songs">KR$NA</p>
+          <p class="song-numbers">Artist</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="main-content-container">
+
+    <div class="main-content-header">
+
+      <div class="arrow-buttons-container">
+        <button class="forward-button">
+          <img class="backward-icon" src="assets/back_navigation.png" alt="">
+        </button>
+        <button class="backward-button">
+          <img class="forward-icon" src="assets/forward_navigation.png" alt="">
+        </button>
+      </div>
+
+      <div class="more-buttons-container">
+        <button class="explore-button">Explore Premium</button>
+        <button class="install-button">Install App</button>
+          <img class="artist-icon" src="artists/shubh.jpg" alt="">
+      </div>
+
+    </div>
+
+    <div class="content-filter-buttons-container">
+      <button class="all-button">All</button>
+      <button class="music-button">Music</button>
+      <button class="podcast-button">Podcasts</button>
     </div>
   </div>
 </body>
