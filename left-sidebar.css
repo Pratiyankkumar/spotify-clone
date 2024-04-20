@@ -132,7 +132,7 @@
   border: 0 solid transparent;
   border-radius: 20px;
   margin-left: 25px;
-  background-color: rgba(180, 180, 180, 0.1);
+  background-color: #b4b4b41a;
   color: white;
   cursor: pointer;
   transition: 0.15s;
